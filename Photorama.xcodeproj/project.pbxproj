@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		63B19983205747FE006C2944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B19982205747FE006C2944 /* AppDelegate.swift */; };
-		63B19985205747FE006C2944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B19984205747FE006C2944 /* ViewController.swift */; };
 		63B19988205747FE006C2944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B19986205747FE006C2944 /* Main.storyboard */; };
 		63B1998A205747FE006C2944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B19989205747FE006C2944 /* Assets.xcassets */; };
 		63B1998D205747FE006C2944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B1998B205747FE006C2944 /* LaunchScreen.storyboard */; };
 		63B19998205747FF006C2944 /* PhotoramaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B19997205747FF006C2944 /* PhotoramaTests.swift */; };
 		63B199A3205747FF006C2944 /* PhotoramaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B199A2205747FF006C2944 /* PhotoramaUITests.swift */; };
+		63B199B120574857006C2944 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B199B020574857006C2944 /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		63B1997F205747FE006C2944 /* Photorama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photorama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B19982205747FE006C2944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63B19984205747FE006C2944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		63B19987205747FE006C2944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63B19989205747FE006C2944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63B1998C205747FE006C2944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		63B1999E205747FF006C2944 /* PhotoramaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoramaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B199A2205747FF006C2944 /* PhotoramaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoramaUITests.swift; sourceTree = "<group>"; };
 		63B199A4205747FF006C2944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B199B020574857006C2944 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				63B19982205747FE006C2944 /* AppDelegate.swift */,
-				63B19984205747FE006C2944 /* ViewController.swift */,
 				63B19986205747FE006C2944 /* Main.storyboard */,
 				63B19989205747FE006C2944 /* Assets.xcassets */,
 				63B1998B205747FE006C2944 /* LaunchScreen.storyboard */,
 				63B1998E205747FE006C2944 /* Info.plist */,
+				63B199B020574857006C2944 /* PhotosViewController.swift */,
 			);
 			path = Photorama;
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63B19985205747FE006C2944 /* ViewController.swift in Sources */,
+				63B199B120574857006C2944 /* PhotosViewController.swift in Sources */,
 				63B19983205747FE006C2944 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
