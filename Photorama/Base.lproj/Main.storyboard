@@ -42,12 +42,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="256.80000000000001" y="107.49625187406298"/>
+            <point key="canvasLocation" x="324" y="81"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Photorama-->
         <scene sceneID="Giv-pp-fgH">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dRu-5Z-CEx" sceneMemberID="viewController">
+                <navigationController title="Photorama" automaticallyAdjustsScrollViewInsets="NO" id="dRu-5Z-CEx" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="v8E-6u-ZbH">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
