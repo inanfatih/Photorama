@@ -8,7 +8,11 @@
 
 import Foundation
 
-class Photo {
+class Photo: Equatable {
+    static func == (lhs: Photo, rhs: Photo) -> Bool {
+        return lhs.photoID == rhs.photoID
+    }
+    
     let title: String
     let remoteURL: URL
     let photoID: String
@@ -23,3 +27,5 @@ class Photo {
     
     
 }
+
+
